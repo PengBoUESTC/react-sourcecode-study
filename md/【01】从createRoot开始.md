@@ -117,7 +117,9 @@ function (children: ReactNodeList): void {
  };
  ```
 因此react组件的初次挂载也被视为一次组件的更新操作。 `updateContainer` 流程将会在后续的文章中进行分析。整体流程经过上述流程的分析，我们已经对 react项目的初始化流程有了初步的了解，以下是上述代码的流程：
-![`react` 初始化流程](../react-%E7%AC%AC%202%20%E9%A1%B5.png)
+
+<center>
+<img src="../static/【01】createRoot.png" width="400" />
 
 图1： `react` 初始化流程
-
+<center>
